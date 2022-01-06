@@ -1,0 +1,86 @@
+*{margin:0px;padding:0px;}
+.site-container{
+  margin-top:10px;
+  display:flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+
+}
+html {
+  font-size: 14px;
+}
+body {
+  line-height: 1.5;
+  color: black;
+  margin:0;
+} 
+
+.header{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding:5px;
+  width:60%;
+  border-top:5px solid green;
+  border-bottom:5px solid green;
+}
+.camera-image{
+  padding-top: 5px;
+  height:30px;
+  width:30px;
+}
+.insta-icon{
+  display: flex;
+  flex-direction:row;
+}
+.insta-icon h1{
+  margin-left:5px;
+  color:green;
+}
+.location,.date,.like{
+  color:grey;
+  font-size:12px;
+}
+.name,.location{
+  padding-left:5px;
+}
+.three-dot,.date{
+  padding-right:5px;
+}
+.main{
+  border: 2px solid grey;
+  margin-top:10px;
+  border-radius:2%;
+}
+.post{
+  display: flex;
+  flex-direction: row;
+  width:400px;
+  justify-content: space-between;
+}
+.location{
+  margin-top:-5px; 
+}
+.post-img{
+  width:404px;
+  height:200px;
+}
+.fab{
+  padding-left:15px;
+}
+.far{
+  padding-left:10px;
+}
+.post-bottom{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.like{
+  padding-left:10px;
+}
+.des{
+  padding-left:10px;
+ padding-bottom:10px; 
+}
